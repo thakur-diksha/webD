@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .dropbtn{
+            background-color:forestgreen;
+            color:white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            width: 160px;
+            box-shadow: 0px 8px 16px 0px grey;
+            z-index: 1; 
+
+        }
+        .dropdown-content a{
+            display: block;
+            padding: 8px 10px;
+            color: black;
+            text-decoration: none;
+
+        }
+        .dropdown-content a:hover{background-color:darkturquoise;}
+        .dropdown:hover .dropbtn{background-color:#3c588b}
+        .dropdown:hover .dropdown-content{display:block;}
+
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Web d resources</button>
+        <div class="dropdown-content">
+            <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg">Youtube Playlist</a>
+            <a href="https://www.w3schools.com/">w3school Website</a>
+           
+        </div>
+    </div>    
+</body>
+</html>
