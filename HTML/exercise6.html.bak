@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My website </title>
+	</head>
+	<body>
+		<table height=100% width=100%>
+		
+			<tr>
+				<td>
+					<img src = "images/35.png" height = 60 width= 50> 
+					<font face="calibri" size=7 color="#b8a5ee"><b>Sample Website</b></font>
+				</td>
+				
+				<!--	<table border=1 align=right height=100% width=50%>  -->
+				<td colspan=4>
+						
+							<td bgcolor="#aeb9e5">
+								<a href = "biodata.html" target = "_blank"> <h3><font face="calibri" color=white><center>Biodata</center></font></h3> </a>
+							</td>
+				
+							<td bgcolor="#aeb9e5">
+								<a href =#footer><h3><font face="calibri" color=white><center> Contact</center></font></h3></a>
+							</td>
+				
+							<td bgcolor="#aeb9e5">
+								<a href = "exercise3.html" target = "_blank"><h3><font face="calibri" color=white> <center>Photos </center></font></h3></a>
+							</td>
+				
+							<td bgcolor="#aeb9e5">
+								<a href = "video.html" target = "_blank"><h3><font face="calibri" color=white><center> Videos</center> </font></h3></a>
+							</td>
+						
+				</td>
+				
+			</tr>
+			
+			<tr> 
+				<table bgcolor="white" width=100% height=560>
+					<tr>
+						<td>
+							<img src="images/8.jpg" width=50% height=100% align="left">
+						
+							<p width=50% height=100% align="right><font face ="calibri">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Vestibulum vel dignissim diam.<br> Nam ut nunc quis mauris sagittis iaculis vel in velit. 
+							Donec euismod dignissim sapien, nec dignissim lectus. <br>Proin semper molestie lectus, non ornare erat dignissim nec. <br>
+							Integer et tellus vitae est lacinia egestas. <br>Integer ac felis at nisi luctus porta in ac nulla. 
+							Donec elit elit,<br> iaculis vel sapien quis, laoreet sollicitudin tortor. Aenean id ipsum eget lectus efficitur pretium in 
+							at dui. <br>Curabitur at ipsum nisi. Nam fermentum metus neque, in placerat nulla imperdiet vitae. 
+							Pellentesque semper tellus eros, <br>eu accumsan eros ultrices ut. Nunc mollis elit ac nisi consectetur, 
+							id volutpat quam sollicitudin.<br> Curabitur vitae gravida metus. Curabitur ultrices id diam eget dignissim.
+							Morbi aliquam quam in urna porttitor,<br> non sollicitudin nisi posuere. Morbi et sapien blandit, semper risus eget,
+							malesuada metus. Etiam mollis tristique urna a mollis.<br> In tincidunt orci nisl, ut posuere risus commodo vitae. 
+							Etiam at sodales nisl. <br> Sed interdum mollis nibh, a blandit lorem vehicula non. Donec nec porttitor augue. 
+							Cras in sapien tortor.</font></p>
+						</td>
+					</tr>
+				</table>
+			</tr>
+			
+			<tr id="footer"> 
+				
+					<table width=100% height=100 bgcolor="#aeb9e5">
+						<tr>
+							<td rowspan=2 align="center"> <font face="calibri" size=3><b>Visit</b><br> Banasthali Vidyapith, <br>Banasthali,<br>Jaipur</font> </td>
+							<td><font face="calibri" size=3><b>Contact</b></font></td>
+							<td rowspan=2><font face="calibri" size=3><b> About</b></font> </td>
+							<td rowspan=2align="left"> <font face="calibri" size=3><b><a href="exercise6.html" target = "_self">Home</a></b></font></td>	
+						</tr>
+						
+						<tr>
+							<td>
+								<a href="https://instagram.com/ftdxa?utm_medium=copy_link" target="_blank"><img src="images/ig.png" height=20 width=20 align="left"></a>
+								<a href="mailto:thalurdiksha47@gmail.com"><img src="images/mail.png" height=20 width=28 align="left"></a>
+							</td>
+						</tr>
+					</table>
+					
+				
+			</tr>
+			
+		</table>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Feedback form</title>
+	</head>
+
+	<body bgcolor="black">
+		<table border=0 bgcolor="#e3dede" align="center">
+			<form method = "post" action = "www.banasthali.org">
+	 
+				<caption><font size=6 color=white> Campus feedback form </font></caption> 
+				<tr>
+					<td>
+						<label> Name </label>
+					</td>
+					<td>
+						<input type = "text" name = "Name" size=54 placeholder="Enter Your Name here" /> 
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Email </label>
+					</td>
+					<td>
+						<input type = "text" name = "email" size=54 placeholder="Enter Your Email here" /> 
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> What did you like most about our campus? </label>
+					</td>
+					<td>
+						<input type="checkbox" id="choice1" name="campus" value="Campus" />
+						<label for="choice1"> Campus</label><br>
+						
+						<input type="checkbox" id="choice2" name="Students" value="Students" />
+						<label for="choice2"> Students</label><br>
+						
+						<input type="checkbox" id="choice3" name="location" value="location" />
+						<label for="choice3"> Location</label><br>
+						
+						<input type="checkbox" id="choice4" name="atmosphere" value="atmosphere" />
+						<label for="choice4"> Atmosphere</label><br>
+						
+						<input type="checkbox" id="choice5" name="rooms" value="rooms" />
+						<label for="choice5"> Hostel Rooms</label><br>
+						
+						<input type="checkbox" id="choice6" name="sports" value="sports" />
+						<label for="choice6"> Sports</label><br>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> How did you become interested in Banasthali? </label>
+					</td>
+					<td>
+						<input type = "radio" name = "choice" value ="friends" /><label> Friends </label>
+						<input type = "radio" name = "choice" value ="tv" /><label> Television </label> 	
+						<input type = "radio" name = "choice" value ="internet" /><label> Internet </label> 			
+						<input type = "radio" name = "choice" value ="other" /><label> Others </label> 
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Additional Remarks </label>
+					</td>
+					<td>
+						<textarea name = "comment" rows=5 cols=50 placeholder="Provide any additional remarks" ></textarea>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan=2 align="center">
+						<input type = "reset" name = "reset" value= "reset" />
+						<input type = "submit" name = "submit" value = "submit" /><br>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan=2 align="center">
+						<input type = "checkbox" name = "rm" value = "1" /> <label> Remember me! </label>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

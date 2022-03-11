@@ -1,0 +1,41 @@
+div{
+	font-size:20px;
+	color:red;
+	border-style:solid
+	border-color:blue;
+	border-width:5px;
+	border:solid red 2px;
+	background-size:cover;
+	margin-left:400px;
+}
+
+
+#sq{
+	width:500px;
+	height:500px;
+	background-image:url("images/35.jpg");
+	
+	width:500px;
+	text-align:center;
+	color:black;
+	font-weight:800;
+}
+#circle{
+	border-radius:50%;
+	width:500px;
+	height:500px;
+	background-image:url("images/25.jpg");
+	
+	width:500px;
+	text-align:center;
+	color:black;
+	font-weight:800;
+}
+#rect{
+	width:800px;
+	height:500px;
+	background-image:url("images/27.jpg");
+	text-align:center;
+	color:black;
+	font-weight:800;
+}

@@ -1,0 +1,149 @@
+<!-- More controls :
+
+					must condn for radio button = all the radio buttons must have the common name
+														common id
+
+		checkbox     <input> checkbox
+		drop-down      <select> <option>
+		text area     <textarea>
+		button        <button>  button
+		submit button  <input>  submit
+		reset button   <input>  reset
+						<datalist> : used for putting options in text field
+		
+		text area has multi line inputs
+		
+		rows and cols att of textarea : rows => no of lines visible in text area
+										cols => no of characters visible in text area
+										
+		size attribute of text field	
+
+		range : min=10 max=20
+		
+		
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Forms in HTML</title>
+	</head>
+
+	<body bgcolor="black">
+	
+		<table border=0 bgcolor="#e3dede">
+			<form method = "post" action = "forms.html"> 
+				<tr>
+					<td>
+						<label> User name : </label>
+					</td>
+					<td>
+						<input type = "text" name = "userName" size=54 placeholder="Enter UserName" /> 
+					</td>
+				</tr>
+				
+				<tr>
+				    <td>
+						<label> Password : </label>
+					</td>
+					<td>
+						<input type = "password" name = "password" size=54 placeholder="Enter Password" /> <br>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Gender  </label>
+					</td>
+					<td>
+						<input type = "radio" name = "gender" value ="male" /><label> Male </label><br>
+					
+						<input type = "radio" name = "gender" value ="female" /><label> Female </label> 					
+						
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Date of Birth</label>
+					</td>
+					<td>
+						<input type=date name="dob" />
+					</td>	
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Age </label>
+					</td>
+					<td>
+						<input type=number name="age" />
+						  <!-- type=range min=10 max=20 -->
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Fav Color </label>
+					</td>
+					<td>
+						<input type=color name="yourcolor"/>
+						  <!--rgb/hex -->
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Class </label>
+					</td>
+					<td>
+						<select name = "class"> 
+							<option value = "IT"> B.Tech CS </option>
+							<option value = "CS"> B.Tech IT </option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Remarks </label>
+					</td>
+					<td>
+						<textarea name = "comment" rows=5 cols=50 placeholder="Enter Remarks" ></textarea>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label> Reg month</label>
+					</td>
+					<td>
+						<input type=text name=m list=month>
+						<datalist id=month>
+							<option> January </option>
+							<option> February </option>
+							<option> March </option>
+							<option> April </option>
+						</datalist>
+					</td>
+				</tr>
+					
+				<tr>
+					<td colspan=2 align="center">
+						<input type = "reset" name = "reset" value= "RESET!" />
+					
+						<input type = "submit" name = "login" value = "login" /><br>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan=2 align="center">
+						<input type = "checkbox" name = "rm" value = "1" /> <label> Remember me </label>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

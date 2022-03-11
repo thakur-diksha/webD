@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+			<title>Tbales</title>
+	</head>
+	<body background = "images/36.png" bgcolor="blue>
+			
+		
+	</body>
+	
+</html>
+
+
+<!-- Tables : represenatation of data in rows and columns
+      
+	  rows
+	  columns
+	  column headings
+	  cells
+	  
+	  columns inside rows - so create row first (<tr>) then column (<td>)
+		 -->

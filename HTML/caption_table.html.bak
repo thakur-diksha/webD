@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Table exercise </title>
+	</head>
+
+	<body>
+		<table border = "1" height = 200px width = 400px bgcolor = "green"> 
+		<caption> Product Details </caption>              
+		<tr>
+			<th>Product name </th>
+			<th>Quantity </th>
+		</tr>
+		<tr>
+			<td>Book </td>
+			<td>40 </td>
+		</tr>
+		
+		</table>
+	
+	</body>
+</html>

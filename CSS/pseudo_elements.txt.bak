@@ -1,0 +1,36 @@
+pseudo-class and pseudo-element:
+
+    pseudo class applies when state of element changes
+	
+	pseudo element when some part of element is changed
+	
+example:
+	class ==> .nav:__  (single colon)
+	element ==> .nav::__ (double colons)
+	
+	before and after --> 
+				before applies before the class on which its put
+				.nav::before
+				
+				after applies on elements after the class
+				.nav::after
+				
+.nav::before{
+	content="";
+	margin:400px;
+}
+
+.p1::first-letter{
+	font-size:40px;
+	font-weight:900;
+	color:white;
+}
+changes the way the first letter of this para looks
+
+for first line, use the pseudo element first-line
+
+.p1::selection{
+	background-color:black;
+	color:white;
+	font-size:30px;
+}

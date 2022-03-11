@@ -1,0 +1,85 @@
+<!--formatting tags:
+	style
+	color
+	size
+	face
+	
+	tag - <font>     </font>
+	
+	<fonr color = white size =  face = >    face is the type of font
+	
+	style/formatting tags : 
+	        <b> bold
+			<i> italics
+			<strike>  :strikethrough effect
+			<del>      strikethrough effect
+			<tt>      :typetext. monospace formatting - all characters have same lentgh space width
+			<sup>     : superscript
+			<sub>     :subscript
+			<ins>     :inserted text - works like underline <u>
+			
+			- 1 to 7 font values. by default, it's 3
+			
+			<big>      :font size 4 (3+1)
+			<small>    : font size 2 (3-1)
+			
+	
+	Phrage tags:
+	
+			em         : emphasize - italics
+			strong     : bold
+			mark	   : highlights - marker
+			abbr       : abbreviate  = <abbr title="Global Positioning System">GPS</abbr>
+			blockquote : a block is separated from the paragraph/normal flow of paragraph
+			q          : quotation
+			code       : formatting for any program, in monospace
+			              use <code> with <pre> in combination
+						  
+						  
+						  
+	LIST:     
+			<ol>   : ordered list  [numbers-by default](numbered - 1, 2, 3, .. a,b,c,.. A,B,C.. i ii iii..I II III)
+		    <ul>   : unordered/bulleted list (square, circle, disc) [by default-disk/bullets]
+			<dl>   : description list (a term and its defn)
+			
+			<li>  - <ul type=circle/square>
+			           <li> item1 </li>
+					   <li> item2 </li>
+					</ul>  
+
+					
+					<ol type=a/A/i/I start=11>  (start specifies where to start the count of list items. 11,12,13..)
+						<li> item1</li>
+						<li> item2 </li>
+					</ol>
+					
+			nesting in lists:
+			         
+					<ul>
+						<li> item
+						    <ol>
+							    <li> xyz</li>
+								<li> abc </li>
+							</ol>
+					    </li>
+						<li> item2 </li>
+						
+					</ul>
+					
+					
+			definition list:
+			
+			        <dt> defn term 
+					<dd> defn description
+					
+					<dt> WWW </dt>
+					     <dd> This is a world wibe web document </dd>
+					<dt> Internet </dt>
+					     <dd> a global network</dd>
+						 
+						 
+	IMAGES:
+			<img src = "path of the image file with extension" alt ="this is an image">
+				 we always use relative path
+	
+			--> 

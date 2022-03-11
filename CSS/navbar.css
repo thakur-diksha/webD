@@ -1,0 +1,38 @@
+*{
+	box-sizing:border-box;
+}
+
+.nav{
+	position:absolute;
+	right:10px;
+	top:50px;
+}
+
+.nav ul{
+	margin:0;
+	padding:0;
+}
+
+.nav ul li{
+	list-style:none;
+	background-color:rgba(12,12,12,.4);
+	color:white;
+	width:150px;
+	margin:1px;
+	padding:10px;
+	
+	/*float:left/right  makes this vertical navbar horizontal*/
+}
+
+.nav ul li:hover{
+	background-color:rgba(244,244,244,.4);
+}
+.nav ul li:hover a{
+	color:black;
+}
+
+.nav ul li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+}

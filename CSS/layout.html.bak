@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>layouts in css </title>
+			<link href="layout.css" type="text/css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="flex-container">
+			<div> 1 </div>
+			<div> 2 </div>
+			<div style="order:3; flex-grow:3"> 3 </div>
+			<div> 4 </div>
+			<div style="order:5;"> 5 </div>
+			<div> 6 </div>
+			<div> 7 </div>
+			<div style="order:8;"> 8 </div>
+			<div> 9 </div>
+			<div style="order:10;"> 10 </div>
+			<div> 11 </div>
+		</div>
+	</body>
+</html>
+
+<!--order prop only applies on flex-items
+
+grow/shrink : increase/decrease the space of an element
+-->

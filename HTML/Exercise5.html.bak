@@ -1,0 +1,115 @@
+<!--Create a user feedback page which asks questions about a 
+software product. 
+You are required to use checkbox, radio buttons, and drop-down, 
+textarea and various text input type for this. 
+Structure the web page using HTML table.
+---->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Feedback form</title>
+	</head>
+
+	<body bgcolor="black">
+		<table border=0 bgcolor="#e3dede" align="center">
+			<form method = "post" action = "forms.html">
+				<h3 align="center"><b><font color="white">Software feedback form</font></b></h3>
+				<tr>
+					<td>
+						<label> Name </label>
+					</td>
+					<td>
+						<input type = "text" name = "Name" size=54 placeholder="Enter Your Name here" /> 
+					</td>
+				</tr>
+				<br>
+				
+				<tr>
+					<td>
+						<label> Email </label>
+					</td>
+					<td>
+						<input type = "text" name = "email" size=54 placeholder="Enter Your Email here" /> 
+					</td>
+				</tr>
+				<br>
+				
+				<tr>
+					<td>
+						<label> Gender  </label>
+					</td>
+					<td>
+						<input type = "radio" name = "gender" value ="male" /><label> Male </label>
+						<input type = "radio" name = "gender" value ="female" /><label> Female </label> 					
+					</td>
+				</tr>
+				<br>
+				
+				<tr>
+					<td>
+						<label> What do you do? </label>
+					</td>
+					<td>
+						<select name = "class"> 
+							<option value = "Professional"> Working Professional </option>
+							<option value = "Student"> Student </option>
+						</select>
+					</td>
+				</tr>
+				<br>
+				
+				<tr>
+					<td>
+						<label> How satisfied were<br> you with our product? </label>
+					</td>
+					<td>
+						<label for=min id=min> 0 </label>
+						<input type=range name="scale" min=0 max=10 />
+						
+						<label for=max> 10</label>
+					</td>
+				</tr>
+				<br>
+				
+				<tr>
+					<td>
+						<label> Remarks </label>
+					</td>
+					<td>
+						<textarea name = "comment" rows=5 cols=50 placeholder="Provide any additional remarks" ></textarea>
+					</td>
+				</tr>
+				<br>
+				
+				<tr>
+					<td>
+						<label> How would you like<br> to receive updates? </label>
+					</td>
+					<td>
+						<input type="checkbox" id="email" name="email">
+						<label for="email"> Through Email</label><br>
+						<input type="checkbox" id="phone" name="phone">
+						<label for="phone"> Through Phone Number</label>
+					</td>
+				</tr>
+				
+				<br>
+				
+				<tr>
+					<td colspan=2 align="center">
+						<input type = "reset" name = "reset" value= "reset" />
+						<input type = "submit" name = "submit" value = "submit" /><br>
+					</td>
+				</tr>
+				<br>
+				
+				<tr>
+					<td colspan=2 align="center">
+						<input type = "checkbox" name = "rm" value = "1" /> <label> Remember me! </label>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

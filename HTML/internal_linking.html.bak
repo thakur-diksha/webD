@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Internal linking in HTML </title>
+	</head>
+
+	<body bgcolor = "black">
+		
+		<a href = "#i25"><img src = "images/25.jpg" height = 150px width = 150px border = "1"></a>     
+		<a href = "#i2"><img src = "images/2.jpg" height = 150px width = 150px border = "1"></a>  
+		<a href = "#i4"><img src = "images/4.jpg" height = 150px width = 150px border = "1"></a>
+		
+		<a href = "#end">End of page</a>
+		<hr>
+		
+		<img id = "i25" src = "images/25.jpg" height = 100% width = 100% border = "1">
+		<img id = "i2" src = "images/2.jpg" height = 100% width = 100% border = "1">
+		<img id = "i4" src = "images/4.jpg" height = 100% width = 100% border = "1">
+		
+		<a id = "end" />
+			<h1> <font color = "white"> This is the end of the page </font></h1>
+	</body>
+</html>
+
+<!--opeming the images on the same web page on clicking the thumbnail-->

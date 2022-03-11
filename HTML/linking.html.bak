@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> linking in HTML </title>
+	</head>
+
+	<body>
+		<table border = "1" height = 200px width = 400px> 
+			<caption> Product Details </caption>              
+			<tr>
+				<th>Product name </th>             
+				<th>Quantity </th>
+			</tr>
+			<tr>
+				<td>Book </td>
+				<td>
+					<table border = "1" height = 80px width = 60px>           <!--creating hyperlinks in these blocks-->
+						<tr>
+							<td bgcolor="red"><a href = "tables_bg.html" target = "_blank"> 1 </a> </td>
+							<td bgcolor="blue"><a href = "caption_table.html"> 2 </a></td>
+						</tr>
+							<td bgcolor="yellow"> 3</td>
+							<td bgcolor="green"> 4</td>
+						<tr>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		
+		</table>
+		
+		
+	</body>
+</html>
+
+
+
+
+<!--linking in HTML : 
+	hyperlink
+	
+	2 types -
+		1. internal -linking within the same page. redirects to another location/position in the page
+		2. external - redirects to another web page or source or document
+		
+	anchor tag : <a href=destination target=> Source </a>          => href = hyperlink reference
+																   => target = decides if it is opened in the same tab or in a diff tab or window
+																			
+																			_self : opens in same tab
+																			_blank :opens in new/blank tab
+-->

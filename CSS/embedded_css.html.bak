@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title> embedded CSS </title>
+			
+			<style>
+				body{
+					background-color:red;
+					background-image:url('images/35.png'),linear-gradient(orange,red,green,blue);
+					background-repeat:no-repeat;   <!-- y-repeat for vertical repeat. x-repeat for horizontal repeat -->
+					background-position:center center; <!--background-position:50%50%-->
+					background-attachment:fixed;     <!--background-attachment:scroll; ==> bg scrolls with the content-->
+					}
+				
+				h1{
+					color:black;
+					font-size:50px;
+					text-align:center;
+					text-transform:uppercase;
+					font-family:ubuntu;
+					text-decoration:underline red double;
+					letter-spacing:5px;
+					font-variant:small-caps;
+					
+					}
+					
+				p{
+					color:white;
+					font-size:30px;
+					text-align:justify;
+					text-decoration:line-through red;
+					word-spacing:-20px;  <!--overlaps, reduces default word spacing-->
+					line-height:2;
+					text-indent:100px;
+					font-weight:700;
+					}
+			</style>
+	</head>
+	
+	<body>
+		<h1>Internet</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla bibendum, elementum dolor ac, rhoncus erat. Cras ac consectetur orci. Sed dapibus aliquam arcu non sagittis. Morbi luctus neque vel semper hendrerit. Nam imperdiet sem ligula. Nulla lobortis magna neque, et lobortis arcu ullamcorper ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas vel pharetra neque. Etiam pulvinar nisl hendrerit risus ultricies, ac iaculis nibh placerat. Aenean eu nibh mattis, congue mauris sit amet, mattis elit. Integer non nisl sit amet urna sodales sollicitudin non vel leo. </p>
+	</body>
+</html>
+
+<!-- using multiple images in bg at once :
+											background-image:url('path'), url('path');
+-->

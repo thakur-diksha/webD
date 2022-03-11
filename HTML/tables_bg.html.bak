@@ -1,0 +1,26 @@
+<!--background and bgcolor attribute in table
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Diksha Thakur (1913570) </title>
+	</head>
+
+	<body>
+      <table>
+         <tr>
+			<td background = "images/2.jpg"> Hello! </td>
+		 </tr>
+		 
+		 <tr>
+			<td></td>
+		 </tr>
+		 
+		 <tr>	
+			<td></td>
+		 </tr>
+		 
+	  </table>
+      
+   </body>
+</html>

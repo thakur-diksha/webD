@@ -1,0 +1,37 @@
+div{
+	height:300px;
+	width:300px;
+	font-size:20px;
+	color:red;
+	background-color:black;
+	border-style:dashed;
+	border-color:blue;
+	border-width:5px;
+	border-top:solid red 10px;
+	/*border-radius:10%;*/
+}
+
+span{
+	color:yellow;
+}
+
+/*class selector*/
+.circle{
+		background-color:cyan;
+		border-radius:50%;
+}
+/*id selector*/
+#rect{
+	background-color:gray;
+	 width:500px;
+}
+
+
+
+/*border : dashed dotted groove double solid  inset outset
+border:5px green double --> shorthand prop
+
+class selector overrides the element selector prop
+
+id selector also overrides the element selector prop
+*/

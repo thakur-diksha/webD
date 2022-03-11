@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Table exercise </title>
+	</head>
+
+	<body>
+		<table border = "1" height = 200px width = 400px bgcolor = "green"> 
+		<caption> Product Details </caption>              
+		<tr>
+			<th>Product name </th>             <!--table heading => bold and centered by default-->
+			<th>Quantity </th>
+		</tr>
+		<tr>
+			<td>Book </td>
+			<td>
+				<table border = "0">           <!--nested table-->
+					<tr>
+						<td bgcolor = "red"> 1</td>
+						<td bgcolor = "cyan> 2</td>
+					</tr>
+						<td bgcolor = "yellow"> 3</td>
+						<td bgcolor = "orange"> 4</td>
+					<tr>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		</table>
+	
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Diksha Thakur (1913570) Exercise 7</title>
+ <link rel="stylesheet" href="exercise 7.css">
+</head>
+<body>
+ <div class="navbar">
+ <ul>
+ <li> <a href="#home"> Home</a> </li>
+ <li> <a href="#contact"> Contact</a> </li>
+ <li> <a href="#edu"> Education</a> </li>
+ <li> <a href="#skills"> Skills</a> </li>
+ <li> <a href="#cer"> Certificates</a> </li>
+ </ul>
+ </div>
+ <section id="home">
+ <div class="box">
+ I am <b>Diksha Thakur</b>, a 3rd year student pursuing B.tech in Information
+Technology from banasthali Vidyapith.
+ </div>
+ </section>
+ <section id="contact">
+ <div class="box">
+ <div>
+ <h1>Contact</h1>
+ </div>
+ <ul>
+ <li>Email: thakurdiksha47@gmail.com</li>
+ <li>Phone: 7897254441</li>
+ <li>Address: Lucknow</li>
+ </ul>
+ </div>
+ </section>
+ <section id="edu">
+ <div class="box">
+ <div>
+ <h1>Education</h1>
+ </div>
+ <div class="ed1">
+ <h3>B.Tech IT</h3>
+ <p>Banasthali Vidyapith (2019-present)</p>
+ <p>CGPA: 8.77</p>
+ </div>
+ <div class="ed2">
+ <h3>Class 12th</h3>
+ <p>O. P. Jindal School (2017-2018)</p>
+ <p>Percentage: 89</p>
+ </div>
+ <div class="ed3">
+ <h3>Class 10th</h3>
+ <p>O. P. Jindal School (2015-2016)</p>
+ <p>CGPA: 10</p>
+ </div>
+ </div>
+ </section>
+ <section id="skills">
+ <div class="box">
+ <div>
+ <h1>Skills</h1>
+ </div>
+ <ul>
+ <li>C</li>
+ <li>C++</li>
+ <li>Java</li>
+ <li>Python</li>
+ <li>MySQL</li>
+ <li>HTML</li>
+ <li>CSS</li>
+ <li>DBMS</li>
+ </ul>
+ </div>
+ </section>
+ <section id="cer">
+ <div class="box">
+ <div>
+ <h1>Certificates</h1>
+ </div>
+ <div class="cer1">
+ <h3>LeanIn Mentorship Program</h3>
+ <p>Web development</p>
+ </div>
+ <div class="cer2">
+ <h3>LeanIn Mentorship Program</h3>
+ <p>NLP</p>
+ </div>
+ <div class="cer3">
+ <h3>Barclays's GTT Program</h3>
+ <p>Python</p>
+ </div>
+ </div>
+ </section>
+</body>
+</html>

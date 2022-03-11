@@ -1,0 +1,24 @@
+<!-- HTML Headings
+
+	6 levels of headings - h1, h2, h3,..h6
+-->
+
+<!doctype html>
+<html>
+	<head>
+			<title> My Page </title>
+	</head>
+	
+	<body>
+				<h1>This is my first web page</h1>
+				<h2>This is my first web page</h2>
+				<h3>This is my first web page</h3>
+				<h4>This is my first web page</h4>
+				<h5>This is my first web page</h5>
+				<h6>This is my first web page</h6>
+				<h7>This is my first web page</h7> <!--plaintext-->
+	</body>
+	
+</html>
+
+<!--size and boldness go on decreasing-->

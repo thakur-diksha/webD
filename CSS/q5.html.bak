@@ -1,0 +1,44 @@
+<!doctype html>
+	<html>
+		<head>
+			<title> Diksha Thakur (1913570) Lab Exercise - 3 </title>
+			<link href="q5.css" type="text/css" rel="stylesheet">
+		</head>
+		
+		<body>
+			<h1> INTERNET </h1>
+			<p> The Internet, sometimes called simply "the Net," is a worldwide system of computer networks
+				-- a network of networks in which users at any one computer can, if they have permission, 
+				get information from any other computer (and sometimes talk directly to users at other computers). 
+				It was conceived by the Advanced Research Projects Agency (ARPA) of the U.S. government in 1969 and 
+				was first known as the ARPANet. The original aim was to create a network that would allow users of
+				a research computer at one university to "talk to" research computers at other universities. 
+				A side benefit of ARPANet's design was that, because messages could be routed or rerouted in more
+				than one direction, the network could continue to function even if parts of it were destroyed in 
+				the event of a military attack or other disaster.
+			</p>
+			
+			<p> Today, the Internet is a public, cooperative and self-sustaining facility accessible to hundreds 
+				of millions of people worldwide. It is used by many as the primary source of information consumption,
+				and fueled the creation and growth of its own social ecosystem through social media and content 
+				sharing. Furthermore, e-commerce, or online shopping, has become one of the largest uses of the 
+				Internet.
+			</p>
+			
+			<h2> How the Internet works </h2>
+			<p>
+			     Physically, the Internet uses a portion of the total resources of the currently existing public 
+				 telecommunication networks. Technically, what distinguishes the Internet is its use of a set of 
+				 protocols called Transmission Control Protocol/Internet Protocol (TCP/IP). Two recent adaptations 
+				 of Internet technology, the intranet and the extranet, also make use of the TCP/IP protocol.
+		    </p>
+			<p>
+			    The Internet can be seen as having two major components: network protocols and hardware. 
+				The protocols, such as the TCP/IP suite, present sets of rules that devices must follow in order 
+				to complete tasks. Without this common collection of rules, machines would not be able to 
+				communicate.
+			</p>
+						
+				
+		</body>
+	</html>

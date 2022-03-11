@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> clickable images (thumbnails) </title>
+	</head>
+		
+	<body bgcolor = "black">
+		
+		<a href = "images/25.jpg" target = "_blank"><img src = "images/25.jpg" height = 100px width = 100px border = "1"></a>     <!--thumbnail of 100 by 100 px-->
+		
+		<a href = "images/1.jpg" target = "_blank"><img src = "images/1.jpg" height = 100px width = 100px border = "1"></a>
+		
+		<a href = "link of the external image here" target = "_blank"><img src = "images/2.jpg" height = 100px width = 100px border = "1"></a>      <!--external linking to another image on the internet-->
+		
+	</body>
+</html>
+
+<!--thumbnails : a small sized image that displays the whole image on clicking, or a thumbnail is a reference of an image
+
+<a href = "mailto:mymailid@gmail.com"> <h1>Send Email</h1></a>
+-->

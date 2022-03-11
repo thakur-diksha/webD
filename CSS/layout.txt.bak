@@ -1,0 +1,33 @@
+layouts:
+
+allow us to take elements contained in  a web page and control where
+they are positioned realtive to-
+
+- their default position in normal layout flow
+- the other elements around them
+- their parent container
+- the main window/viewport
+
+types:
+	 
+	block - one after the other, after line breaks
+	inline - next to each other
+	
+	
+	Compared to display: inline , the major difference is that 
+	inline-block allows to set a width and height on the element. 
+	Also, with display: inline , top and bottom margins & 
+	paddings are not respected, and with display: inline-block 
+	they are..
+	
+	
+css layout techniques:
+	
+	normal flow - by default, the flow of the browser (display:none;)
+	display property 
+	flexbox 
+	floats
+	positioning
+	grids
+	table layout
+	multiple-column layout

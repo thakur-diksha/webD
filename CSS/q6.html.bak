@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dakshina Singh (1913566) Exercise 6</title>
+    <link rel="stylesheet" href="q6.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="one">
+                <p>“For me, becoming isn’t about arriving somewhere or achieving a certain aim. I see it instead as forward motion, a means of evolving, a way to reach continuously toward a better self. The journey doesn’t end.”
+                    — Michelle Obama</p>
+            </td>
+            <td class="two">
+                <p>“Keep your face always toward the sunshine, and shadows will fall behind you.”
+                    — Walt Whitman</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="three">
+                <p>“You make a choice: continue living your life feeling muddled in this abyss of self-misunderstanding, or you find your identity independent of it. You draw your own box.”
+                    — Duchess Meghan</p>
+                
+            </td>
+            <td class="four">
+                <p>“You don’t always need a plan. Sometimes you just need to breathe, trust, let go and see what happens.”
+                    — Mandy Hale</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

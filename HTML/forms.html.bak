@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Forms in HTML</title>
+	</head>
+
+	<body>
+			<form method = "post" action = "forms.html"> 
+			
+					<label> User name : </label>
+					<input type = "text" name = "userName" /> <br>
+					
+					<label> Password : </label>
+					<input type = "password" name = "password" /> <br>
+					
+					<input type = "radio" name = "gender" value ="male" /><label> Male </label><br>
+					
+				    <input type = "radio" name = "gender" value ="female" /><label> Female </label> 					
+					<br>
+					
+					<label> Class </label>
+					<select name = "class"> 
+						<option value = "IT"> B.Tech CS </option>
+						<option value = "CS"> B.Tech IT </option>
+					</select>
+					<br>
+					
+					<input type = "reset" name = "reset" value= "RESET!" />
+					
+					<input type = "submit" name = "login" value = "login" /><br>
+					
+					<input type = "checkbox" name = "rm" value = "1" /> <label> Remember me </label>
+			</form>
+	</body>
+</html>
+
+
+<!--FORM : an object to collect information
+			it first accepts data from user then sends it to the server (another/same web page)
+			
+	form element of html
+	
+	controls - text field    <input>   input is a self closing tag
+			   radio         <input>
+			   checkbox      <input>
+			   drop-down     <select>
+			   text area     <textarea>
+			   button        <button>
+			   submit button <input>   
+			   reset button  <input>
+			   
+	methods of http that forms use : Get method		
+									 Post method
+									 
+	Creating a form:
+					<form method = get/post action = "dest page url"> 
+							<input type = "text" name = "userName" />
+					</form>
+					
+	using the get method, the eneterd data is visible in the url
+	to hide that , use post method
+	
+	in login forms,password will be visible in url . so use post method
+	with radio buttons, use get method
+	
+	if radio buttons belong to the same group (example - gender- male or female), use the same value for name attribute
+	using diff values, makes both the buttons selectable
+
+		value of checkboxes is either on (when selected) or off (when not selected)
+		
+		-->

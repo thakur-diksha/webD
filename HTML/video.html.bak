@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Video Gallery </title>
+	</head>
+
+	<body bgcolor="black">
+		
+		<table>
+			<tr>
+				<td>
+					<video height=400 width=600 controls>
+					<source src = "" type = "video/mp4" >
+					browser does not support video
+					</video>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<video height=400 width=600 controls>
+					<source src = "" type = "video/mp4" >
+					browser does not support video
+					</video>
+				</td>
+			</tr>
+			
+		</table>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> biodata </title>
+	</head>
+	<body bgcolor="black">
+		
+		<img src ="biodata/diksha_resume.jpg" alt="this is my resume" height="750" width="500" border="2" align="center">
+
+	</body>
+</html>

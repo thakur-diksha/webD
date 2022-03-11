@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title> navigation bar </title>
+			<link href="navbar.css" type="text/css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="nav">
+			<ul>
+				<li><a href="#">Bio-data</a></li>
+				<li><a href="#">Education</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Personal details</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
+
+
+<!--
+	navbar can be vertical and horizontal
+	
+	<a href="#"><li>Bio-data</li></a>  ==>makes the whole block 
+												clickable
+-->

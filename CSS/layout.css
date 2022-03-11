@@ -1,0 +1,25 @@
+.flex-container{
+	height:600px;
+	width:600px;
+	background-color:black;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;  /*horizontally justifies*/
+	align-items:stretch;    /*vertically justifies*/
+	align-content:space-around;      /*aligning all the content inside the container,how the extra space bw the elements is used*/
+}
+
+/*align-content:space-between ==> increases space bw two rows
+align-content:space-around ==> spacing from left and right*/
+
+.flex-container > div{
+	height:100px;
+	width:100px;
+	background-color:red;
+	color:white;
+	font-size:50px;
+	margin:2px;
+}
+
+/* use stretch to fill up the vertical spaces bw elements*/

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Diksha Thakur (1913570) Exercise 3 </title>
+	</head>
+
+	<body>
+      <table>
+         <tr>
+            <td colspan = 2> <img src = "images/2.jpg" height = 100% width = 100%> </img> </td>
+            <td rowspan = 2> <img src = "images/21.jpg" height = 100% width = 100%> </img> </td>	
+         </tr>
+         
+         <tr>
+            <td rowspan = 2> <img src = "images/11.jpg" height = 100% width = 100%> </img> </td>
+            <td> <img src = "images/12.jpg" height = 100% width = 100%> </img> </td>	
+         </tr>
+		 
+		 <tr>
+            <td colspan = 2> <img src = "images/5.jpg" height = 100% width = 100%> </img> </td>	
+         </tr>
+      </table>
+      
+   </body>
+</html>
+
+ <!--height = 500 width = 500-->

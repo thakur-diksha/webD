@@ -1,0 +1,83 @@
+INTRO TO CSS:
+
+cascading style sheets
+
+collection of styles-
+					arrangement - align
+					color, size, font type
+					transparency, size, border
+					tables
+					
+		style = style rules
+		style sheet = collection of style rules
+		
+	
+	syntax of style rule -
+						selector{
+								  declaration1;
+								  declaration2;
+								}
+								
+						declaration = key:value 		key = property-name			value = property value
+						
+						
+						selector - selects the element or elements to be styled
+						
+					
+					element selector - 	tag name (for one elements)	
+					class selector 	 - 	variable (for multiple elements , within a class) .classname
+					id selector      -  variable  #id
+
+types -
+		1. inline    - as  a value of style attribute
+	--> 2. embedded/internal  - as a content of style element
+		3. external  - link with html
+		
+		*selectors are used for embedded and external css.
+		
+
+sequence of overriding of properties :
+										dynamic JS
+										inline css
+										embedded css
+										external css
+										html or web browser
+										
+images gradients :
+					1. linear gradient
+					2. conic gradient
+					3. radial gradient
+					
+			
+text and forms :
+					font-style:italic / oblique /normal
+					font-variant:normal / small-caps 
+					font-weight:bold /bolder/ boldest/ light /lighter/ lightest /100 200 ... 900 /normal
+	css dimesnions	->		font-size: px/ % /em / rem
+					font-face/ font-family
+					
+					color:hex /rgb/name
+					text-decoration:underline/none/overline/line-through
+					text-align:center/left/right/justify
+					text-transformation:lowercase/uppercase/capitalize(first cap, rest small)
+					line-height
+					letter-spacing
+					word-spacing
+					text-indent:dimension value
+					
+					
+<div> : block element
+<span> : inline element
+					
+	
+outline, outline-offset
+
+box-sizing: content-box (default)
+
+box-sizing:border-box (if we add margin, padding or anything else. everything is included in that height and width only, not additionally.
+box-shadow	: horizontal-offset vertical-offeset blur size color
+			:5px 5px 10px black
+text-shadow --> works same as box-shadow			
+
+
+pseudo classes - when the class is not initially present, but when the state of an elements changes, the effect is visible.

@@ -1,0 +1,69 @@
+*{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+.navbar{
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background-color: white;
+}
+.navbar ul{
+ display: flex;
+}
+.navbar ul li{
+ padding: 15px 0;
+}
+.navbar a{
+ text-decoration: none;
+ color: black;
+ margin: 40px 0;
+ font-size: 40px;
+ padding: 16px 90px;
+}
+.navbar a:hover{
+ background-color: black;
+ color: white;
+}
+#home{
+ background-color: rgb(221, 143, 87);
+ font-size: 40px;
+}
+section{
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+ padding: 80px;
+}
+section .box{
+ margin: 100px 400px;
+ background-color: white;
+ box-shadow: 3px 3px gray;
+ padding: 80px;
+}
+h3{
+ font-size: 32px;
+ font-weight: 600;
+}
+li{
+ font-size: 25px;
+}
+p{
+ font-size: 25px;
+}
+section h1{
+ margin: 10px 0;
+}
+#contact{
+ background-color: rgb(202, 214, 214);
+}
+#edu{
+ background-color: rgb(218, 187, 207);
+}
+#skills{
+ background-color: rgb(187, 226, 186);
+}
+#cer{
+ background-color: rgb(241, 204, 182);
+}
