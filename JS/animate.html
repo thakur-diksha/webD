@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation using js</title>
+
+    <style>
+        div{
+            height:60px;
+            width:60px;
+            font-size:10px;
+            background-color:red;
+            left:0;
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" onclick="move()">Box</div>
+    
+    <script>
+        pos = 0;
+        function resize(){
+            pos = pos+5; //increase decrease this to increase/ decrease the speed of animation
+            b = document.getElementById('box');
+            // b.style.height = '120px';
+            //b.style.height = 2 * parseInt(b.style.height) + 'px';
+            // b.style.width = '120px';
+            b.style.left = pos + 'px';
+
+            if(pos == 1200){
+                clearInterval(x);
+            }
+        }
+
+        function move(){
+
+            x = setInterval(resize, 1);
+        }
+    </script>
+</body>
+</html>

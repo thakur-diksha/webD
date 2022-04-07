@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksha Thakur (1913570) Assg 6</title>
+
+    <style>
+        #counter{
+            height:200px;
+            width:200px;
+            background-color:cyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input{
+            width:60px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="counter"></div>
+    <input type="button" onclick="start()" value="start">
+    <input type="button" onclick="stop()" value="stop">
+
+    <script>
+        var count = 0;
+        function counter(){
+            d = document.getElementById('counter');
+            d.innerHTML = ++count;
+        }
+
+        function start(){
+            interval = setInterval(counter, 1000);
+        }
+        
+        function stop(){
+           clearInterval(interval);
+           count = 0;
+        }
+    </script>
+</body>
+</html>

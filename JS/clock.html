@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksha Thakur (1913570) Assg 6</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #clock{
+            height:100vh;
+            width:100%;
+            background-color:red;
+            color:black;
+            font-size:100px;
+            font-weight:800;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="clock"></div>
+
+    <script>
+        var d1 = document.getElementById('clock');
+
+        function clock(){
+            var date = new Date();
+            var hr = date.getHours();
+            var min = date.getMinutes();
+            var sec = date.getSeconds();
+
+            var color = '#1234'
+            d1.innerHTML = hr +":" +min +":"+sec;
+            d1.style.backgroundColor = color+sec;
+        }
+
+        setInterval(clock,500);
+    </script>
+</body>
+</html>

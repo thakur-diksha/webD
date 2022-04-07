@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksha Thakur (1913570) Assg 6</title>
+</head>
+    <style>
+        #greetings{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:400px;
+            width:100%;
+            background-color: aqua;
+            font-size:40px;
+        }
+    </style>
+<body onload="greet()">
+    <div id="greetings" onclick="hideMsg()"></div>
+</body>
+</html>
+
+
+<script>
+   function greet(){
+        fn = window.prompt("Enter your first name");
+        ln = window.prompt("Enter your last name");
+
+        var myDate = new Date();
+        var hrs = myDate.getHours();
+
+        var greet;
+
+        if(hrs == 12)
+            greet = 'Good Noon';
+        else if (hrs < 12)
+            greet = 'Good Morning';
+        else if (hrs >= 12 && hrs <= 17)
+            greet = 'Good Afternoon';
+        else
+            greet = 'Good Evening';
+
+        document.getElementById('greetings').innerHTML = greet + " " + fn + " "+ ln;
+   }
+
+    function hideMsg(){
+        var g = document.getElementById('greetings');
+        g.style.display = 'none';
+    }
+</script> 
+</html>
